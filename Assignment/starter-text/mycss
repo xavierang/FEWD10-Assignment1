@@ -1,0 +1,113 @@
+nav ul li[class="left"]{
+	float:left;
+}
+
+nav ul li[class="right"]{
+	float:right;
+}
+
+nav ul{
+	background-color:black;
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+	overflow:auto;
+}
+
+nav ul li{
+	padding:1px;
+	color:white;
+	font-family:"hobo std",sans-serif;
+	font-size:1.5em;
+	line-height:2em;
+	height:2em;
+}
+
+nav ul a{
+	text-decoration:none;
+	color:white;
+	display:block; 
+	transition:0.5 background-color;
+}
+
+nav a:hover{
+	background-color:white;
+	color:black;
+}
+
+nav a[class="active"]{
+	background-color:white;
+	color:black;
+	cursor:default;
+}
+
+section[class="about_me"] div[class="right"]{
+	margin-top:20px;
+	width:30%;
+	float:right;
+}
+
+section[class="about_me"] div[class="right"] img{
+	border:2px solid black;
+	padding:1px;
+	width:100%;
+	height:auto;
+}
+
+section[class="about_me"] div[class="left"]{
+	margin-top:20px;
+	width:70%;
+	float:left;
+}
+
+section[class="about_me"] {
+	overflow:auto;
+}
+
+div[class="education"]{
+	margin-top:20px;
+}
+
+section[class="portfolio"] div[class="left"]{
+	float:left;
+	border:1px solid black;
+	width:30%
+}
+
+section[class="portfolio"] div[class="left"] img{
+	width:100%;
+	height:auto;
+}
+
+section[class="portfolio"] div[class="mid"]{
+	display:inline-block;
+	border:1px solid black;
+	margin-left:5%;
+	width:30%;
+	height:100%;
+}
+
+section[class="portfolio"] div[class="mid"] img{
+	width:100%;
+	height:auto;
+}
+
+section[class="portfolio"] div[class="right"]{
+	float:right;
+	border:1px solid black;
+	width:30%;
+}
+
+section[class="portfolio"] div[class="right"] img{
+	width:100%;
+	height:auto;
+}
+
+section[class="portfolio"] span {
+	font-size:0.7em;
+}
+
+
+
+
