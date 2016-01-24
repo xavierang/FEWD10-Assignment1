@@ -15,19 +15,28 @@ nav ul{
 	overflow:auto;
 }
 
-nav ul li{
-	padding:1px;
+nav ul li[class="left"]{
+	padding:5px;
 	color:white;
-	font-family:"hobo std",sans-serif;
 	font-size:1.5em;
 	line-height:2em;
 	height:2em;
+	font-family:"Stencil Std",sans-serif;
+}
+
+nav ul li[class="right"]{
+	padding:5px;
+	color:white;
+	font-size:1.5em;
+	line-height:2em;
+	height:2em;
+	font-family:"hobo std",sans-serif;
 }
 
 nav ul a{
 	text-decoration:none;
 	color:white;
-	display:block; 
+	display:block;
 	transition:0.5 background-color;
 }
 
@@ -50,7 +59,7 @@ section[class="about_me"] div[class="right"]{
 
 section[class="about_me"] div[class="right"] img{
 	border:2px solid black;
-	padding:1px;
+	padding:5px;
 	width:100%;
 	height:auto;
 }
@@ -105,7 +114,7 @@ section[class="portfolio"] div[class="right"] img{
 }
 
 section[class="portfolio"] span {
-	font-size:0.7em;
+	font-size:0.8em;
 }
 
 
